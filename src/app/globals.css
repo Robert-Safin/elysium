@@ -1,3 +1,59 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: Syne;
+  src: url("/fonts/Syne/Syne-VariableFont_wght.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: Krona;
+  src: url("/fonts/Krona_One/KronaOne-Regular.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: FahkwangRegular;
+  src: url("/fonts/Fahkwang/Fahkwang-Regular.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: FahkwangMedium;
+  src: url("/fonts/Fahkwang/Fahkwang-Medium.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: FahkwangBoldItalic;
+  src: url("/fonts/Fahkwang/Fahkwang-BoldItalic.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: FahkwangSemiBoldItalic;
+  src: url("/fonts/Fahkwang/Fahkwang-SemiBoldItalic.ttf") format("opentype");
+}
+
+
+@font-face {
+  font-family: PoppinsBlack;
+  src: url("/fonts/Poppins/Poppins-Black.ttf") format("opentype");
+
+}
+
+@font-face {
+  font-family: PoppinsRegular;
+  src: url("/fonts/Poppins/Poppins-Regular.ttf") format("opentype");
+
+}
+
+@font-face {
+  font-family: PoppinsSemiBold;
+  src: url("/fonts/Poppins/Poppins-SemiBold.ttf") format("opentype");
+
+}
+
+
+@font-face {
+  font-family: RubikMonoOne;
+  src: url("/fonts/Rubik_Mono_One/RubikMonoOne-Regular.ttf") format("opentype");
+
+}

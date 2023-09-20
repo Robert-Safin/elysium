@@ -8,6 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Syne: "Syne",
+        Krona: "Krona",
+        FahkwangRegular: "FahkwangRegular",
+        FahkwangMedium: "FahkwangMedium",
+        FahkwangBoldItalic: "FahkwangBoldItalic",
+        FahkwangSemiBoldItalic: "FahkwangSemiBoldItalic",
+        PoppinsBlack: "PoppinsBlack",
+        PoppinsRegular: "PoppinsRegular",
+        PoppinsSemiBold: "PoppinsSemiBold",
+        RubikMonoOne: "RubikMonoOne",
+
+      },
       colors: {
         themeRed: "#FF1B1B",
         themePurple: "#C082FF",
