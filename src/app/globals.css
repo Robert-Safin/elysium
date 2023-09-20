@@ -32,28 +32,260 @@
   src: url("/fonts/Fahkwang/Fahkwang-SemiBoldItalic.ttf") format("opentype");
 }
 
-
 @font-face {
   font-family: PoppinsBlack;
   src: url("/fonts/Poppins/Poppins-Black.ttf") format("opentype");
-
 }
 
 @font-face {
   font-family: PoppinsRegular;
   src: url("/fonts/Poppins/Poppins-Regular.ttf") format("opentype");
-
 }
 
 @font-face {
   font-family: PoppinsSemiBold;
   src: url("/fonts/Poppins/Poppins-SemiBold.ttf") format("opentype");
-
 }
-
 
 @font-face {
   font-family: RubikMonoOne;
   src: url("/fonts/Rubik_Mono_One/RubikMonoOne-Regular.ttf") format("opentype");
+}
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+@layer components {
+  .heroTitle {
+    @apply font-Syne font-extrabold text-[27px] leading-[34.4px] tracking-[0.6px]
+    sm:text-[35.84px] sm:leading-[43px] sm:tracking-[0.72px]
+  lg:text-[64px]lg:leading-[76.8px]lg:tracking-[1.28px]
+  2xl:text-[77.44px] 2xl:leading-[92.9px] 2xl:tracking-[1.55px];
+  }
+}
+@layer components {
+  .navLogo {
+    @apply font-Syne font-extrabold text-[8.54px] leading-[16.4px] tracking-[0.27px]
+    sm:text-[12.2px] sm:leading-[23.4px] sm:tracking-[0.39px]
+  lg:text-[22px]lg:leading-[25px]lg:tracking-[0.7px]
+  2xl:text-[19.8px] 2xl:leading-[36.7px] 2xl:tracking-[0.61px];
+  }
+}
 
+@layer components {
+  .heroLogo {
+    @apply font-Syne font-extralight text-[9.76px] leading-[18.7px] tracking-[0.31px]
+  lg:text-[18px]lg:leading-[20px]lg:tracking-[0.56px]
+  2xl:text-[24.2px] 2xl:leading-[46px] 2xl:tracking-[0.77px];
+  }
+}
+
+@layer components {
+  .heroPhonetic {
+    @apply font-Krona text-[9px] tracking-[0.31px] leading-[9px]
+  lg:text-[18px]lg:leading-[43px]lg:tracking-[0.56px]
+  2xl:text-[19.8px] 2xl:leading-[36.4px] 2xl:tracking-[0.61px];
+  }
+}
+
+@layer components {
+  .heroText {
+    @apply font-PoppinsRegular text-[7.2px] leading-[8.2px]
+  lg:text-[12.8px]lg:leading-[14.5px]lg:tracking-[0px]
+  2xl:text-[14.08px] 2xl:leading-[19px] 2xl:tracking-[0px];
+  }
+}
+
+@layer components {
+  .sectionSubHeader {
+    @apply font-FahkwangBoldItalic text-[11.2px] leading-[12.5px] tracking-[0px]
+  lg:text-[20px]lg:leading-[22.4px]lg:tracking-[0px]
+  2xl:text-[24.2px] 2xl:leading-[27.1px] 2xl:tracking-[0px];
+  }
+}
+
+@layer components {
+  .sectionHeader {
+    @apply font-Syne font-bold text-[25px] leading-[22.4px] tracking-[0px]
+  lg:text-[44.8px]lg:leading-[40px]lg:tracking-[0px]
+  2xl:text-[55px] 2xl:leading-[48.4px] 2xl:tracking-[0px];
+  }
+}
+
+@layer components {
+  .workoutClass {
+    @apply font-RubikMonoOne text-[7.45px] leading-[10.4px] tracking-[0px]
+  lg:text-[13px]lg:leading-[16px]lg:tracking-[0px]
+  2xl:text-[14.57px] 2xl:leading-[20.4px] 2xl:tracking-[0px];
+  }
+}
+
+@layer components {
+  .workoutTag {
+    @apply font-PoppinsRegular text-[5px] leading-[6.9px] tracking-[0px]
+  lg:text-[8px]lg:leading-[12.5px]lg:tracking-[0px]
+  2xl:text-[8.8px] 2xl:leading-[14px] 2xl:tracking-[0px];
+  }
+}
+
+@layer components {
+  .button {
+    @apply font-PoppinsBlack text-[13px] leading-[17.9px] tracking-[1.1px]
+  lg:text-[13px]lg:leading-[17.9px]lg:tracking-[1.1px]
+  2xl:text-[15.4px] 2xl:leading-[21.1px] 2xl:tracking-[1.28px];
+  }
+}
+
+@layer components {
+  .areaType {
+    @apply font-PoppinsBlack text-[11.76px] leading-[15px] tracking-[0px]
+  lg:text-[21px]lg:leading-[27px]lg:tracking-[0px]
+  2xl:text-[25.42px] 2xl:leading-[32.5px] 2xl:tracking-[0px];
+  }
+}
+
+@layer components {
+  .areaText {
+    @apply font-PoppinsRegular text-[7.84px] leading-[12.5px] tracking-[0px]
+  lg:text-[14px]lg:leading-[22.4px]lg:tracking-[0px]
+  2xl:text-[16.95px] 2xl:leading-[27.1px] 2xl:tracking-[0px];
+  }
+}
+
+@layer components {
+  .hoursHeader {
+    @apply font-PoppinsBlack text-[9px] leading-[11.1px] tracking-[0px]
+  lg:text-[16px]lg:leading-[19.9px]lg:tracking-[0px]
+  2xl:text-[19.36px] 2xl:leading-[24.1px] 2xl:tracking-[0px];
+  }
+}
+
+@layer components {
+  .hoursText {
+    @apply font-PoppinsSemiBold text-[9px] leading-[11.1px] tracking-[0px]
+  lg:text-[16px]lg:leading-[19.9px]lg:tracking-[0px]
+  2xl:text-[19.36px] 2xl:leading-[24.1px] 2xl:tracking-[0px];
+  }
+}
+
+@layer components {
+  .areasSubHeader {
+    @apply font-PoppinsSemiBold text-[6.5px] leading-[7.5px] tracking-[0.45px]
+  lg:text-[12.8px]lg:leading-[14.5px]lg:tracking-[0px]
+  2xl:text-[14.52px] 2xl:leading-[16.3px] 2xl:tracking-[0.98px];
+  }
+}
+
+@layer components {
+  .quote {
+    @apply font-Syne font-extrabold text-[15.24px] leading-[15.24px] tracking-[0px]
+  lg:text-[28px]lg:leading-[28px]lg:tracking-[0px]
+  2xl:text-[32.95px] 2xl:leading-[32.9px] 2xl:tracking-[0px];
+  }
+}
+
+@layer components {
+  .usainBolt {
+    @apply font-RubikMonoOne text-[8.89px] leading-[15.2px] tracking-[0px]
+  lg:text-[16px]lg:leading-[20px]lg:tracking-[0px]
+  2xl:text-[19.2px] 2xl:leading-[32.9px] 2xl:tracking-[0px];
+  }
+}
+@layer components {
+  .testimonialHeader {
+    @apply font-FahkwangSemiBoldItalic text-[10.1px] leading-[15.5px] tracking-[0px]
+  lg:text-[18px]lg:leading-[22px]lg:tracking-[0px]
+  2xl:text-[21.8px] 2xl:leading-[33px] 2xl:tracking-[0px];
+  }
+}
+@layer components {
+  .testimonialText {
+    @apply font-PoppinsBlack text-[7.16px] leading-[10px] tracking-[0px]
+  lg:text-[13px]lg:leading-[18px]lg:tracking-[0px]
+  2xl:text-[15.75px] 2xl:leading-[21.7px] 2xl:tracking-[0px];
+  }
+}
+
+@layer components {
+  .testimonialName {
+    @apply font-PoppinsBlack text-[7.16px] leading-[10px] tracking-[0px]
+  lg:text-[13px]lg:leading-[17.9px]lg:tracking-[1.1px]
+  2xl:text-[15.75px] 2xl:leading-[21.7px] 2xl:tracking-[0px];
+  }
+}
+
+@layer components {
+  .membershipSubHeader {
+    @apply font-PoppinsSemiBold text-[10.75px] leading-[15.1px] tracking-[0px]
+  lg:text-[21px]lg:leading-[26px]lg:tracking-[0px]
+  2xl:text-[23.25px] 2xl:leading-[32.5px] 2xl:tracking-[0.97px];
+  }
+}
+
+@layer components {
+  .membershipQuote {
+    @apply font-Syne font-extrabold text-[14.56px] leading-[21.3px] tracking-[0px]
+  lg:text-[26px]lg:leading-[38px]lg:tracking-[0px]
+  2xl:text-[31.46px] 2xl:leading-[46px] 2xl:tracking-[0px];
+  }
+}
+
+@layer components {
+  .johnWooden {
+    @apply font-FahkwangBoldItalic text-[8.96px] leading-[9.5px] tracking-[0px]
+  lg:text-[16px]lg:leading-[17px]lg:tracking-[0px]
+  2xl:text-[19.36px] 2xl:leading-[20.6px] 2xl:tracking-[0px];
+  }
+}
+
+@layer components {
+  .membershipPlans {
+    @apply font-FahkwangMedium text-[11.83px] leading-[16.6px] tracking-[0px]
+  lg:text-[21.1px]lg:leading-[29.6px]lg:tracking-[0px]
+  2xl:text-[25.56px] 2xl:leading-[35.8px] 2xl:tracking-[0px];
+  }
+}
+
+@layer components {
+  .membershipType {
+    @apply font-PoppinsSemiBold text-[11.76px] leading-[13.8px] tracking-[0px]
+  lg:text-[21px]lg:leading-[24px]lg:tracking-[0px]
+  2xl:text-[25.42px] 2xl:leading-[29.8px] 2xl:tracking-[0px];
+  }
+}
+
+@layer components {
+  .membershipText {
+    @apply font-FahkwangRegular text-[7.39px] leading-[13px] tracking-[0px]
+  lg:text-[14px]lg:leading-[24px]lg:tracking-[0px]
+  2xl:text-[15.97px] 2xl:leading-[29.8px] 2xl:tracking-[0px];
+  }
+}
+
+@layer components {
+  .readyTo {
+    @apply font-Syne font-bold text-[24.4px] leading-[24px] tracking-[0px]
+  lg:text-[44.8px]lg:leading-[40px]lg:tracking-[0px]
+  2xl:text-[52.7px] 2xl:leading-[32.8px] 2xl:tracking-[0px];
+  }
+}
+
+@layer components {
+  .readySubHeader {
+    @apply font-Syne font-extrabold text-[8px] leading-[15px] tracking-[0px]
+  lg:text-[18px]lg:leading-[33.5px]lg:tracking-[0.56px]
+  2xl:text-[17.3px] 2xl:leading-[32.8px] 2xl:tracking-[0px];
+  }
+}
+
+@layer components {
+  .readyButton {
+    @apply font-Syne font-extrabold text-[9.98px] leading-[14px] tracking-[0.83px]
+  lg:text-[18px]lg:leading-[33.5px]lg:tracking-[0.56px]
+  2xl:text-[17.98px] 2xl:leading-[25.2px] 2xl:tracking-[1.5px];
+  }
 }
