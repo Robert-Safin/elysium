@@ -18,8 +18,9 @@ const Kettlebell:FC<Props> = (props) => {
       xmlns="http://www.w3.org/2000/svg"
       className="w-[21.56px] h-[24.3px]
       md:w-[30.8px] md:h-[34.7px]
-      lg:w-[55px] lg:h-[62px]
-      2xl:w-[66.5px] 2xl:h-[75.3px]
+      lg:w-[45px] lg:h-[52px]
+      mb-1
+
       "
     >
       <mask id="path-1-inside-1_281_1474" fill="white">

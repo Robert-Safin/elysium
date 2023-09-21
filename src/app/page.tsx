@@ -1,5 +1,6 @@
 import Nav from "@/components/nav/Nav";
 import Red from "@/components/red/Red";
+import White from "@/components/white/White";
 import Image from "next/image";
 
 export default function Home() {
@@ -7,7 +8,7 @@ export default function Home() {
     <>
      <Nav />
      <Red/>
-     <div className="w-full h-screen"></div>
+     <White/>
     </>
   );
 }

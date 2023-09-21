@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Red = () => {
   return (
-    <div className="w-full flex flex-col items-center mt-20">
+    <div className="w-full flex flex-col items-center mt-20 mb-10 md:mb-20">
       <div className="relative">
         <Image
           src="/icon/red/dumbbell2.svg"

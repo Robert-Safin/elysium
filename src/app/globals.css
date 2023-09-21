@@ -96,7 +96,7 @@
 @layer components {
   .sectionSubHeader {
     @apply font-FahkwangBoldItalic text-[11.2px] leading-[12.5px] tracking-[0px]
-  lg:text-[20px]lg:leading-[22.4px]lg:tracking-[0px]
+  lg:text-[20px] lg:leading-[22.4px] lg:tracking-[0px]
   2xl:text-[24.2px] 2xl:leading-[27.1px] 2xl:tracking-[0px];
   }
 }
@@ -104,31 +104,31 @@
 @layer components {
   .sectionHeader {
     @apply font-Syne font-bold text-[25px] leading-[22.4px] tracking-[0px]
-  lg:text-[44.8px]lg:leading-[40px]lg:tracking-[0px]
+  lg:text-[44.8px] lg:leading-[40px] lg:tracking-[0px]
   2xl:text-[55px] 2xl:leading-[48.4px] 2xl:tracking-[0px];
   }
 }
 
 @layer components {
   .workoutClass {
-    @apply font-RubikMonoOne text-[7.45px] leading-[10.4px] tracking-[0px]
-  lg:text-[13px]lg:leading-[16px]lg:tracking-[0px]
-  2xl:text-[14.57px] 2xl:leading-[20.4px] 2xl:tracking-[0px];
+    @apply font-RubikMonoOne text-[14px] leading-[10.4px] tracking-[0px]
+  lg:text-[18px] lg:leading-[16px] lg:tracking-[0px]
+  2xl:text-[20px] 2xl:leading-[20.4px] 2xl:tracking-[0px];
   }
 }
 
 @layer components {
   .workoutTag {
-    @apply font-PoppinsRegular text-[5px] leading-[6.9px] tracking-[0px]
-  lg:text-[8px]lg:leading-[12.5px]lg:tracking-[0px]
-  2xl:text-[8.8px] 2xl:leading-[14px] 2xl:tracking-[0px];
+    @apply font-PoppinsRegular text-[10px] leading-[6.9px] tracking-[0px]
+  lg:text-[10px] lg:leading-[12.5px] lg:tracking-[0px]
+  2xl:text-[10px] 2xl:leading-[14px] 2xl:tracking-[0px];
   }
 }
 
 @layer components {
   .button {
     @apply font-PoppinsBlack text-[13px] leading-[17.9px] tracking-[1.1px]
-  lg:text-[13px]lg:leading-[17.9px]lg:tracking-[1.1px]
+  lg:text-[13px] lg:leading-[17.9px] lg:tracking-[1.1px]
   2xl:text-[15.4px] 2xl:leading-[21.1px] 2xl:tracking-[1.28px];
   }
 }
@@ -136,7 +136,7 @@
 @layer components {
   .areaType {
     @apply font-PoppinsBlack text-[11.76px] leading-[15px] tracking-[0px]
-  lg:text-[21px]lg:leading-[27px]lg:tracking-[0px]
+  lg:text-[21px] lg:leading-[27px] lg:tracking-[0px]
   2xl:text-[25.42px] 2xl:leading-[32.5px] 2xl:tracking-[0px];
   }
 }
@@ -144,7 +144,7 @@
 @layer components {
   .areaText {
     @apply font-PoppinsRegular text-[7.84px] leading-[12.5px] tracking-[0px]
-  lg:text-[14px]lg:leading-[22.4px]lg:tracking-[0px]
+  lg:text-[14px] lg:leading-[22.4px] lg:tracking-[0px]
   2xl:text-[16.95px] 2xl:leading-[27.1px] 2xl:tracking-[0px];
   }
 }
@@ -152,7 +152,7 @@
 @layer components {
   .hoursHeader {
     @apply font-PoppinsBlack text-[9px] leading-[11.1px] tracking-[0px]
-  lg:text-[16px]lg:leading-[19.9px]lg:tracking-[0px]
+  lg:text-[16px] lg:leading-[19.9px] lg:tracking-[0px]
   2xl:text-[19.36px] 2xl:leading-[24.1px] 2xl:tracking-[0px];
   }
 }
@@ -160,7 +160,7 @@
 @layer components {
   .hoursText {
     @apply font-PoppinsSemiBold text-[9px] leading-[11.1px] tracking-[0px]
-  lg:text-[16px]lg:leading-[19.9px]lg:tracking-[0px]
+  lg:text-[16px] lg:leading-[19.9px] lg:tracking-[0px]
   2xl:text-[19.36px] 2xl:leading-[24.1px] 2xl:tracking-[0px];
   }
 }
@@ -168,7 +168,7 @@
 @layer components {
   .areasSubHeader {
     @apply font-PoppinsSemiBold text-[6.5px] leading-[7.5px] tracking-[0.45px]
-  lg:text-[12.8px]lg:leading-[14.5px]lg:tracking-[0px]
+  lg:text-[12.8px] lg:leading-[14.5px] lg:tracking-[0px]
   2xl:text-[14.52px] 2xl:leading-[16.3px] 2xl:tracking-[0.98px];
   }
 }
@@ -176,7 +176,7 @@
 @layer components {
   .quote {
     @apply font-Syne font-extrabold text-[15.24px] leading-[15.24px] tracking-[0px]
-  lg:text-[28px]lg:leading-[28px]lg:tracking-[0px]
+  lg:text-[28px] lg:leading-[28px] lg:tracking-[0px]
   2xl:text-[32.95px] 2xl:leading-[32.9px] 2xl:tracking-[0px];
   }
 }
@@ -184,21 +184,21 @@
 @layer components {
   .usainBolt {
     @apply font-RubikMonoOne text-[8.89px] leading-[15.2px] tracking-[0px]
-  lg:text-[16px]lg:leading-[20px]lg:tracking-[0px]
+  lg:text-[16px] lg:leading-[20px] lg:tracking-[0px]
   2xl:text-[19.2px] 2xl:leading-[32.9px] 2xl:tracking-[0px];
   }
 }
 @layer components {
   .testimonialHeader {
     @apply font-FahkwangSemiBoldItalic text-[10.1px] leading-[15.5px] tracking-[0px]
-  lg:text-[18px]lg:leading-[22px]lg:tracking-[0px]
+  lg:text-[18px] lg:leading-[22px] lg:tracking-[0px]
   2xl:text-[21.8px] 2xl:leading-[33px] 2xl:tracking-[0px];
   }
 }
 @layer components {
   .testimonialText {
     @apply font-PoppinsBlack text-[7.16px] leading-[10px] tracking-[0px]
-  lg:text-[13px]lg:leading-[18px]lg:tracking-[0px]
+  lg:text-[13px] lg:leading-[18px] lg:tracking-[0px]
   2xl:text-[15.75px] 2xl:leading-[21.7px] 2xl:tracking-[0px];
   }
 }
