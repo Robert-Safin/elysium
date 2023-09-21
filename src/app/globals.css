@@ -51,19 +51,12 @@
   font-family: RubikMonoOne;
   src: url("/fonts/Rubik_Mono_One/RubikMonoOne-Regular.ttf") format("opentype");
 }
-///////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////
+
 @layer components {
   .heroTitle {
     @apply font-Syne font-extrabold text-[27px] leading-[34.4px] tracking-[0.6px]
     sm:text-[35.84px] sm:leading-[43px] sm:tracking-[0.72px]
-  lg:text-[64px]lg:leading-[76.8px]lg:tracking-[1.28px]
+  lg:text-[64px] lg:leading-[76.8px] lg:tracking-[1.28px]
   2xl:text-[77.44px] 2xl:leading-[92.9px] 2xl:tracking-[1.55px];
   }
 }
@@ -71,15 +64,15 @@
   .navLogo {
     @apply font-Syne font-extrabold text-[8.54px] leading-[16.4px] tracking-[0.27px]
     sm:text-[12.2px] sm:leading-[23.4px] sm:tracking-[0.39px]
-  lg:text-[22px]lg:leading-[25px]lg:tracking-[0.7px]
+  lg:text-[22px] lg:leading-[25px] lg:tracking-[0.7px]
   2xl:text-[19.8px] 2xl:leading-[36.7px] 2xl:tracking-[0.61px];
   }
 }
 
 @layer components {
   .heroLogo {
-    @apply font-Syne font-extralight text-[9.76px] leading-[18.7px] tracking-[0.31px]
-  lg:text-[18px]lg:leading-[20px]lg:tracking-[0.56px]
+    @apply font-Syne font-extrabold text-[9.76px] leading-[18.7px] tracking-[0.31px]
+  lg:text-[18px] lg:leading-[20px] lg:tracking-[0.56px]
   2xl:text-[24.2px] 2xl:leading-[46px] 2xl:tracking-[0.77px];
   }
 }
@@ -87,7 +80,7 @@
 @layer components {
   .heroPhonetic {
     @apply font-Krona text-[9px] tracking-[0.31px] leading-[9px]
-  lg:text-[18px]lg:leading-[43px]lg:tracking-[0.56px]
+  lg:text-[18px] lg:leading-[43px] lg:tracking-[0.56px]
   2xl:text-[19.8px] 2xl:leading-[36.4px] 2xl:tracking-[0.61px];
   }
 }
@@ -95,7 +88,7 @@
 @layer components {
   .heroText {
     @apply font-PoppinsRegular text-[7.2px] leading-[8.2px]
-  lg:text-[12.8px]lg:leading-[14.5px]lg:tracking-[0px]
+  lg:text-[12.8px] lg:leading-[14.5px] lg:tracking-[0px]
   2xl:text-[14.08px] 2xl:leading-[19px] 2xl:tracking-[0px];
   }
 }
