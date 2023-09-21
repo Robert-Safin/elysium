@@ -27,7 +27,7 @@ const Red = () => {
           "
         />
       </div>
-      <div className="relative flex w-full justify-center items-center">
+      <div className="relative flex w-full justify-center items-center mt-8">
         <h1 className="absolute heroTitle text-themeRed text-center uppercase">
           Elevate <br /> & TRANSFORM
         </h1>
@@ -65,7 +65,8 @@ const Red = () => {
         width={300}
         height={300}
         alt=""
-        className="w-[32px] h-[54px] mt-20"
+        className="w-[32px] h-[54px] mt-28
+        animate-arrowMove"
       />
     </div>
   );
