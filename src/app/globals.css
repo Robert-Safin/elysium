@@ -103,7 +103,7 @@
 
 @layer components {
   .sectionHeader {
-    @apply font-Syne font-bold text-[25px] leading-[22.4px] tracking-[0px]
+    @apply font-Syne font-bold text-[25px] leading-[22.4px] tracking-[-1px]
   lg:text-[44.8px] lg:leading-[40px] lg:tracking-[0px]
   2xl:text-[55px] 2xl:leading-[48.4px] 2xl:tracking-[0px];
   }
@@ -206,7 +206,7 @@
 @layer components {
   .testimonialName {
     @apply font-PoppinsBlack text-[7.16px] leading-[10px] tracking-[0px]
-  lg:text-[13px]lg:leading-[17.9px]lg:tracking-[1.1px]
+  lg:text-[13px] lg:leading-[17.9px] lg:tracking-[1.1px]
   2xl:text-[15.75px] 2xl:leading-[21.7px] 2xl:tracking-[0px];
   }
 }

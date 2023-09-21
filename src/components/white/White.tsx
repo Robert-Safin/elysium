@@ -1,21 +1,26 @@
+'use client'
 import Image from "next/image";
-
+import { useState } from "react";
+import { Waypoint } from "react-waypoint";
 const White = () => {
+
+  const [isBoxVisible, setIsBoxVisible] = useState(false);
+
   return (
-    <div className="relative flex flex-col w-full">
+    <div className="relative flex flex-col w-full mb-10 lg:mb-20">
       <p className="sectionSubHeader text-themeGray mb-2">CLASSES</p>
       <h1 className="sectionHeader text-themeGray ml-4">INSTRUCTED</h1>
       <h1 className="sectionHeader text-themeGray ml-4 mb-6">GROUP WORKOUTS</h1>
-      <Image
+      {/* <Image
         src="/icon/gray/court.svg"
         width={1000}
         height={1000}
         alt=""
         className="absolute z-10 "
-      />
+      /> */}
       <div className="flex flex-col items-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-          <div className="flex flex-col ">
+          <div className="flex flex-col">
             <Image
               src="/img/classes/class3.png"
               alt=""
@@ -158,6 +163,26 @@ const White = () => {
                 lifting
               </p>
             </div>
+          </div>
+          <div />
+          <div className="flex lg:justify-end">
+            <Waypoint onEnter={()=>setIsBoxVisible(true)} onLeave={()=>setIsBoxVisible(false)}>
+              <button
+                className="relative button text-themeGray rounded-full border w-[270px] py-4 mt-20 group
+
+      "
+              >
+                SCHEDULE A CLASS
+                <Image
+                  src="/icon/gray/box.svg"
+                  alt=""
+                  width={1000}
+                  height={1000}
+                  className={"absolute -z-10 w-[160px] h-[160px] bottom-0 -right-20 sm:bottom-2 sm:-right-32 transition-all duration-1000 " + (isBoxVisible ? "animate-rotateAndTranslateBox " : "")}
+                  style={{"animationFillMode": "forwards"}}
+                />
+              </button>
+            </Waypoint>
           </div>
         </div>
       </div>

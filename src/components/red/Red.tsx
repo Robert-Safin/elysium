@@ -9,9 +9,9 @@ const Red = () => {
           width={300}
           height={300}
           alt=""
-          className="w-[49px] h-[24px]
-          lg:w-[87px] lg:h-[43px]
-          2xl:w-[105px] 2xl:h-[52px]
+          className="w-[49px] h-auto
+          lg:w-[87px] lg:h-auto
+          2xl:w-[105px] 2xl:h-auto
 
           "
         />
@@ -20,9 +20,9 @@ const Red = () => {
           width={300}
           height={300}
           alt=""
-          className="absolute w-[49px] h-[24px] top-0 right-1
-          lg:w-[87px] lg:h-[43px]
-          2xl:w-[105px] 2xl:h-[52px]
+          className="absolute w-[49px] h-auto top-0 right-1
+          lg:w-[87px] lg:h-auto
+          2xl:w-[105px] 2xl:h-auto
 
           "
         />

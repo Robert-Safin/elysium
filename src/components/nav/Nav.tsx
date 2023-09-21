@@ -45,7 +45,7 @@ const Nav = () => {
   }
   return (
     <div className="sticky top-2 md:top-4 lg:top-14 w-full">
-      <div className="flex justify-between items-center z-10 bg-black h-[24px] py-4">
+      <div className="flex justify-between items-center z-10  h-[24px] py-4">
         <Logo color={color} />
         <Kettlebell color={color} />
       </div>

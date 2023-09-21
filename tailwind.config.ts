@@ -31,26 +31,39 @@ const config: Config = {
     },
     keyframes: {
       arrowMove: {
-        "0%, 9%": { transform: "translateY(0px)", opacity: '1' },
-        "10%, 19%": { transform: "translateY(0px)", opacity: '0' },
+        "0%, 9%": { transform: "translateY(0px)", opacity: "1" },
+        "10%, 19%": { transform: "translateY(0px)", opacity: "0" },
 
-        "20%, 29%": { transform: "translateY(20px)", opacity: '1' },
-        "30%, 39%": { transform: "translateY(20px)", opacity: '0' },
+        "20%, 29%": { transform: "translateY(20px)", opacity: "1" },
+        "30%, 39%": { transform: "translateY(20px)", opacity: "0" },
 
-        "40%, 49%": { transform: "translateY(40px)", opacity: '1' },
-        "50%, 59%": { transform: "translateY(40px)", opacity: '0' },
+        "40%, 49%": { transform: "translateY(40px)", opacity: "1" },
+        "50%, 59%": { transform: "translateY(40px)", opacity: "0" },
 
         // "60%, 69%": { transform: "translateY(60px)", opacity: '1' },
-        "70%, 79%": { transform: "translateY(60px)", opacity: '0' },
+        "70%, 79%": { transform: "translateY(60px)", opacity: "0" },
 
         // "80%, 89%": { transform: "translateY(80px)", opacity: 1 },
-        "90%, 99%": { transform: "translateY(80px)", opacity: '0' },
+        "90%, 99%": { transform: "translateY(80px)", opacity: "0" },
 
-        "100%": { transform: "translateY(0px)", opacity: '1' },
+        "100%": { transform: "translateY(0px)", opacity: "1" },
+      },
+      rotateAndTranslateBox: {
+        "0%": {
+          transform: "rotate(0)",
+          transformOrigin: "bottom left",
+        },
+        "100%": {
+          transform: "rotate(-90deg)",
+          transformOrigin: "bottom left",
+        }
+
+
       },
     },
     animation: {
-      arrowMove: "arrowMove 2000ms linear infinite",
+      arrowMove: "arrowMove 2000ms linear",
+      rotateAndTranslateBox: "rotateAndTranslateBox 1000ms ease-in",
     },
   },
   plugins: [],
