@@ -35,10 +35,11 @@ const Orange = () => {
           READY TO JOIN US?
         </h1>
         <p
-          className="absolute readySubHeader top-[110px] -left-4 bg-themeOrange w-[222px]
+          className="absolute readySubHeader top-[110px] -left-4 bg-themeOrange w-[226px]
         lg:w-[515px]
         lg:-left-[250px] lg:top-[130px]
         2xl:w-[480px]
+
         "
         >
           BE PART OF THE ELYSIUM FAMILY

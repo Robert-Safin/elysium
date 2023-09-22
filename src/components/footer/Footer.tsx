@@ -17,12 +17,12 @@ const Footer = () => {
         <BsSpotify className="text-white text-xl lg:text-3xl" />
       </div>
       <div className="flex justify-between">
-        <div className="flex space-x-4 font-PoppinsRegular text-[10px]lg:text-[14px]">
+        <div className="flex space-x-4 font-PoppinsRegular text-[10px] lg:text-[14px]">
           <p className="text-white border-r pr-4">Elysium</p>
           <p className="text-white ">Copyright 2023</p>
         </div>
 
-        <div className="flex space-x-4 font-PoppinsRegular text-[10px]lg:text-[14px]">
+        <div className="flex space-x-4 font-PoppinsRegular text-[10px] lg:text-[14px]">
           <p className="text-white border-r pr-4 underline">Privacy Policy</p>
           <p className="text-white  underline">Cookie Policy</p>
         </div>
