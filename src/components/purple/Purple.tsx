@@ -76,7 +76,7 @@ lg:top-[298px] lg:right-[150px]
             <h2 className="hoursHeader text-themePurple mt-8">OPENING HOURS</h2>
             <p className="hoursText text-themePurple">MON-FRI: 6AM-9PM</p>
             <p className="hoursText text-themePurple">SAT-SUN: 8AM-6PM</p>
-            <p className="bg-themePurple w-fit mt-1 font-PoppinsSemiBold text-[8px]">
+            <p className="bg-themePurple w-fit mt-1 font-PoppinsSemiBold text-[8px] uppercase">
               Strength. cardio. functional.
             </p>
           </div>
