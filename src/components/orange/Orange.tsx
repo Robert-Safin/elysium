@@ -33,7 +33,7 @@ const Orange = () => {
         overflow-hidden
         "
         >
-          READY TO JOIN US?
+          READY TO JOIN?
         </h1>
         <p
           className="absolute readySubHeader top-[110px] -left-4 bg-themeOrange
