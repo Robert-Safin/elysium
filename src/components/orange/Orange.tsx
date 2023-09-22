@@ -27,7 +27,7 @@ const Orange = () => {
           />
         </Waypoint>
         <h1
-          className="absolute top-[80px] readyTo text-themeOrange w-[310px]
+          className="absolute top-[80px] readyTo text-themeOrange w-[300px]
         lg:w-[600px]
         lg:-left-[200px]
         overflow-hidden
