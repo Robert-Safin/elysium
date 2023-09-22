@@ -45,7 +45,7 @@ const White = () => {
       </Waypoint>
 
       <div className="flex flex-col items-center">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 overflow-hidden">
           <div className="flex flex-col" id="arrowTarget">
             <Image
               src="/img/classes/class3.png"
@@ -198,7 +198,6 @@ const White = () => {
             >
               <button
                 className="relative button text-themeGray rounded-full border w-[270px] py-4 mt-20 group
-
       "
               >
                 SCHEDULE A CLASS
