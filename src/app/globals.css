@@ -214,23 +214,23 @@
 @layer components {
   .membershipSubHeader {
     @apply font-PoppinsSemiBold text-[10.75px] leading-[15.1px] tracking-[0px]
-  lg:text-[21px]lg:leading-[26px]lg:tracking-[0px]
+  lg:text-[21px] lg:leading-[26px] lg:tracking-[0px]
   2xl:text-[23.25px] 2xl:leading-[32.5px] 2xl:tracking-[0.97px];
   }
 }
 
 @layer components {
   .membershipQuote {
-    @apply font-Syne font-extrabold text-[14.56px] leading-[21.3px] tracking-[0px]
-  lg:text-[26px]lg:leading-[38px]lg:tracking-[0px]
-  2xl:text-[31.46px] 2xl:leading-[46px] 2xl:tracking-[0px];
+    @apply font-Syne font-extrabold text-[10.56px] leading-[21.3px] tracking-[0px]
+  lg:text-[26px] lg:leading-[38px] lg:tracking-[0px]
+  2xl:text-[29.46px] 2xl:leading-[46px] 2xl:tracking-[0px];
   }
 }
 
 @layer components {
   .johnWooden {
     @apply font-FahkwangBoldItalic text-[8.96px] leading-[9.5px] tracking-[0px]
-  lg:text-[16px]lg:leading-[17px]lg:tracking-[0px]
+  lg:text-[16px] lg:leading-[17px] lg:tracking-[0px]
   2xl:text-[19.36px] 2xl:leading-[20.6px] 2xl:tracking-[0px];
   }
 }
@@ -238,7 +238,7 @@
 @layer components {
   .membershipPlans {
     @apply font-FahkwangMedium text-[11.83px] leading-[16.6px] tracking-[0px]
-  lg:text-[21.1px]lg:leading-[29.6px]lg:tracking-[0px]
+  lg:text-[21.1px] lg:leading-[29.6px] lg:tracking-[0px]
   2xl:text-[25.56px] 2xl:leading-[35.8px] 2xl:tracking-[0px];
   }
 }
@@ -246,7 +246,7 @@
 @layer components {
   .membershipType {
     @apply font-PoppinsSemiBold text-[11.76px] leading-[13.8px] tracking-[0px]
-  lg:text-[21px]lg:leading-[24px]lg:tracking-[0px]
+  lg:text-[21px] lg:leading-[24px] lg:tracking-[0px]
   2xl:text-[25.42px] 2xl:leading-[29.8px] 2xl:tracking-[0px];
   }
 }
@@ -254,7 +254,7 @@
 @layer components {
   .membershipText {
     @apply font-FahkwangRegular text-[7.39px] leading-[13px] tracking-[0px]
-  lg:text-[14px]lg:leading-[24px]lg:tracking-[0px]
+  lg:text-[14px] lg:leading-[24px] lg:tracking-[0px]
   2xl:text-[15.97px] 2xl:leading-[29.8px] 2xl:tracking-[0px];
   }
 }
@@ -262,7 +262,7 @@
 @layer components {
   .readyTo {
     @apply font-Syne font-bold text-[24.4px] leading-[24px] tracking-[0px]
-  lg:text-[44.8px]lg:leading-[40px]lg:tracking-[0px]
+  lg:text-[44.8px] lg:leading-[40px] lg:tracking-[0px]
   2xl:text-[52.7px] 2xl:leading-[32.8px] 2xl:tracking-[0px];
   }
 }
@@ -270,7 +270,7 @@
 @layer components {
   .readySubHeader {
     @apply font-Syne font-extrabold text-[8px] leading-[15px] tracking-[0px]
-  lg:text-[18px]lg:leading-[33.5px]lg:tracking-[0.56px]
+  lg:text-[18px] lg:leading-[33.5px] lg:tracking-[0.56px]
   2xl:text-[17.3px] 2xl:leading-[32.8px] 2xl:tracking-[0px];
   }
 }
@@ -278,7 +278,7 @@
 @layer components {
   .readyButton {
     @apply font-Syne font-extrabold text-[9.98px] leading-[14px] tracking-[0.83px]
-  lg:text-[18px]lg:leading-[33.5px]lg:tracking-[0.56px]
+  lg:text-[18px] lg:leading-[33.5px] lg:tracking-[0.56px]
   2xl:text-[17.98px] 2xl:leading-[25.2px] 2xl:tracking-[1.5px];
   }
 }

@@ -56,14 +56,40 @@ const config: Config = {
         "100%": {
           transform: "rotate(-90deg)",
           transformOrigin: "bottom left",
-        }
-
-
+        },
       },
+      spin: {
+        "0%": {
+          transform: "rotate(0deg)",
+        },
+        "100%": {
+          transform: "rotate(360deg)",
+        },
+      },
+      flicker: {
+        "0%": {
+          opacity: "1",
+          transform: "rotate(0deg)"
+        },
+        "50%": {
+          opacity: "1",
+          transform: "rotate(180deg)"
+        },
+        "100%": {
+          opacity: "0",
+          transform: "rotate(360deg)"
+        }
+    }
+
     },
     animation: {
       arrowMove: "arrowMove 2000ms linear",
       rotateAndTranslateBox: "rotateAndTranslateBox 1000ms ease-in",
+      spin: "spin 2000ms linear infinite",
+      flicker1: "flicker 3000ms linear infinite",
+      flicker2: "flicker 3100ms linear infinite",
+      flicker3: "flicker 3200ms linear infinite",
+      flicker4: "flicker 3300ms linear infinite",
     },
   },
   plugins: [],
