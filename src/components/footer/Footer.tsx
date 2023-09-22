@@ -1,8 +1,12 @@
-
-import {BsInstagram, BsFacebook, BsLinkedin, BsTwitter, BsSpotify} from 'react-icons/bs'
+import {
+  BsInstagram,
+  BsFacebook,
+  BsLinkedin,
+  BsTwitter,
+  BsSpotify,
+} from "react-icons/bs";
 
 const Footer = () => {
-
   return (
     <div className="flex flex-col pb-10 mt-20">
       <div className="flex justify-evenly mb-8">
@@ -22,15 +26,12 @@ const Footer = () => {
           <p className="text-white border-r pr-4 underline">Privacy Policy</p>
           <p className="text-white  underline">Cookie Policy</p>
         </div>
-
       </div>
-
     </div>
-  )
-}
+  );
+};
 
-export default Footer
-
+export default Footer;
 
 //insta
 //facebook
