@@ -77,17 +77,17 @@ lg:w-[980px]
             <h1 className="testimonialHeader text-themeBlue mb-4 w-full px-6">
               What our members are saying
             </h1>
-            <p className="testimonialText text-themeBlue border-t-[0.5px] border-opacity-40 px-6 pt-4 border-themeBlue">
+            <p className="testimonialText uppercase text-themeBlue border-t-[0.5px] border-opacity-40 px-6 pt-4 border-themeBlue">
               The variety of classes they offer is fantastic, I never get bored
               with my workouts NOW.
             </p>
             <p className="testimonialName text-themeBlue px-6 py-4">Kevin</p>
-            <p className="testimonialText text-themeBlue border-t-[0.5px] border-opacity-40 px-6 pt-4 border-themeBlue">
+            <p className="testimonialText uppercase text-themeBlue border-t-[0.5px] border-opacity-40 px-6 pt-4 border-themeBlue">
               I love how clean and well-maintained this gym is. It&apos;s clear
               they take pride in providing a top-notch environment for members.
             </p>
             <p className="testimonialName text-themeBlue px-6 py-4">Bob</p>
-            <p className="testimonialText text-themeBlue border-t-[0.5px] border-opacity-40 px-6 pt-4 border-themeBlue">
+            <p className="testimonialText uppercase text-themeBlue border-t-[0.5px] border-opacity-40 px-6 pt-4 border-themeBlue">
               The results I&apos;ve seen since joining are incredible. I feel
               stronger, healthier, and more energized than ever.
             </p>
@@ -97,17 +97,17 @@ lg:w-[980px]
           </div>
 
           <div className="hidden md:block mt-[31.5px] lg:mt-[38px] 2xl:mt-[48px]">
-            <p className="testimonialText text-themeBlue border-t-[0.5px] border-opacity-40 px-6 pt-4 border-themeBlue">
+            <p className="testimonialText uppercase text-themeBlue border-t-[0.5px] border-opacity-40 px-6 pt-4 border-themeBlue">
               The equipment is top-of-the-line, and I never have to wait for a
               machine, even during peak hours.
             </p>
             <p className="testimonialName text-themeBlue px-6 py-4">Ellen</p>
-            <p className="testimonialText text-themeBlue border-t-[0.5px] border-opacity-40 px-6 pt-4 border-themeBlue">
+            <p className="testimonialText uppercase text-themeBlue border-t-[0.5px] border-opacity-40 px-6 pt-4 border-themeBlue">
               The trainers here are incredibly knowledgeable and always willing
               to help. They&apos;ve really helped me reach my fitness goals.
             </p>
             <p className="testimonialName text-themeBlue px-6 py-4">Willie</p>
-            <p className="testimonialText text-themeBlue border-t-[0.5px] border-opacity-40 px-6 pt-4 border-themeBlue">
+            <p className="testimonialText uppercase text-themeBlue border-t-[0.5px] border-opacity-40 px-6 pt-4 border-themeBlue">
               This gym offers great value for the price. You get access to so
               many amenities and services.
             </p>

@@ -1,26 +1,52 @@
-'use client'
+"use client";
 import Image from "next/image";
 import { useState } from "react";
 import { Waypoint } from "react-waypoint";
 const White = () => {
-
   const [isBoxVisible, setIsBoxVisible] = useState(false);
+  const [ballsIsVisible, setBallsIsVisible] = useState(false);
 
   return (
     <div className="relative flex flex-col w-full mb-10 lg:mb-20">
       <p className="sectionSubHeader text-themeGray mb-2">CLASSES</p>
       <h1 className="sectionHeader text-themeGray ml-4">INSTRUCTED</h1>
       <h1 className="sectionHeader text-themeGray ml-4 mb-6">GROUP WORKOUTS</h1>
-      {/* <Image
-        src="/icon/gray/court.svg"
-        width={1000}
-        height={1000}
-        alt=""
-        className="absolute z-10 "
-      /> */}
+
+      <Waypoint
+        onEnter={() => setBallsIsVisible(true)}
+
+      >
+        <div>
+          <Image
+            src="/icon/gray/ball.svg"
+            width={242}
+            height={242}
+            alt=""
+            className={`absolute top-20 left-20
+        lg:w-[350px] lg:h-[350px] lg:top-28
+        lg:left-0
+        2xl:w-[450px] 2xl:h-[450px]
+        -z-10 ${ballsIsVisible? "animate-rollInFromLeft1":""}
+        `}
+          />
+          <Image
+            src="/icon/gray/ball.svg"
+            width={242}
+            height={242}
+            alt=""
+            className={`absolute top-20 -left-20
+        lg:w-[350px] lg:h-[350px] lg:top-28
+        lg:-left-60
+        2xl:w-[450px] 2xl:h-[450px]
+        -z-10 ${ballsIsVisible? "animate-rollInFromLeft2":""}
+        `}
+          />
+        </div>
+      </Waypoint>
+
       <div className="flex flex-col items-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-          <div className="flex flex-col">
+          <div className="flex flex-col" id="arrowTarget">
             <Image
               src="/img/classes/class3.png"
               alt=""
@@ -166,7 +192,10 @@ const White = () => {
           </div>
           <div />
           <div className="flex lg:justify-end">
-            <Waypoint onEnter={()=>setIsBoxVisible(true)} onLeave={()=>setIsBoxVisible(false)}>
+            <Waypoint
+              onEnter={() => setIsBoxVisible(true)}
+              onLeave={() => setIsBoxVisible(false)}
+            >
               <button
                 className="relative button text-themeGray rounded-full border w-[270px] py-4 mt-20 group
 
@@ -178,8 +207,11 @@ const White = () => {
                   alt=""
                   width={1000}
                   height={1000}
-                  className={"absolute -z-10 w-[160px] h-[160px] bottom-0 -right-20 sm:bottom-2 sm:-right-32 transition-all duration-1000 " + (isBoxVisible ? "animate-rotateAndTranslateBox " : "")}
-                  style={{"animationFillMode": "forwards"}}
+                  className={
+                    "absolute -z-10 w-[160px] h-[160px] bottom-0 -right-20 sm:bottom-2 sm:-right-32 transition-all duration-1000 " +
+                    (isBoxVisible ? "animate-rotateAndTranslateBox " : "")
+                  }
+                  style={{ animationFillMode: "forwards" }}
                 />
               </button>
             </Waypoint>

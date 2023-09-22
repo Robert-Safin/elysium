@@ -80,29 +80,29 @@ const config: Config = {
           transform: "rotate(360deg)",
         },
       },
-      drop1: {
-        "0%": {
-          transform: "translateY(-200px) rotate(-90deg)",
-          opacity: "0",
-        },
-        "100%": {
-          transform: "translateY(0)",
-          opacity: "1",
-        },
-      },
-      drop2: {
-        "0%": {
-          transform: "translateY(-200px) rotate(90deg)",
-          opacity: "0",
-        },
-        "100%": {
-          transform: "translateY(0)",
-          opacity: "1",
-        },
-      },
+
       rollInFromRight: {
         "0%": {
           transform: "translateX(800px) rotate(90deg)",
+        },
+        "100%": {
+          transform: "translateX(0)",
+        },
+      },
+      hoverUpAndDown: {
+        "0%": {
+          transform: "translateY(0px)",
+        },
+        "50%": {
+          transform: "translateY(-10px)",
+        },
+        "100%": {
+          transform: "translateY(0px)",
+        },
+      },
+      rollInFromLeft: {
+        "0%": {
+          transform: "translateX(-800px) rotate(-190deg)",
         },
         "100%": {
           transform: "translateX(0)",
@@ -117,10 +117,10 @@ const config: Config = {
       flicker2: "flicker 3100ms linear infinite",
       flicker3: "flicker 3200ms linear infinite",
       flicker4: "flicker 3300ms linear infinite",
-      drop1: "drop1 1000ms linear",
-      drop2: "drop2 1000ms linear",
       rollInFromRight: "rollInFromRight 1500ms linear",
-
+      hoverUpAndDown: "hoverUpAndDown 2000ms linear infinite",
+      rollInFromLeft1: "rollInFromLeft 1500ms linear",
+      rollInFromLeft2: "rollInFromLeft 2000ms linear",
     },
   },
   plugins: [],
