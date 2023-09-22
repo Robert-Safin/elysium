@@ -27,9 +27,10 @@ const Orange = () => {
           />
         </Waypoint>
         <h1
-          className="absolute top-[80px] readyTo text-themeOrange w-[280px]
+          className="absolute top-[80px] readyTo text-themeOrange w-[320px]
         lg:w-[600px]
         lg:-left-[200px]
+        overflow-hidden
         "
         >
           READY TO JOIN US?
@@ -39,6 +40,7 @@ const Orange = () => {
         lg:w-[515px]
         lg:-left-[250px] lg:top-[130px]
         2xl:w-[480px]
+        overflow-hidden
 
         "
         >
