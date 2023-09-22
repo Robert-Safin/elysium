@@ -37,7 +37,7 @@ const Orange = () => {
         </h1>
         <p
           className="absolute readySubHeader top-[110px] -left-4 bg-themeOrange
-          w-[276px]
+          w-[256px]
         lg:w-[515px]
         lg:-left-[250px] lg:top-[130px]
         2xl:w-[480px]
