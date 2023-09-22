@@ -8,7 +8,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className='bg-black'>
-      <body className='max-w-[1440px] mx-auto px-4 sm:px-10'>{children}</body>
+      <body className='max-w-[1440px] mx-auto px-3 sm:px-9'>{children}</body>
     </html>
   )
 }
