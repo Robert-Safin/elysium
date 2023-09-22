@@ -69,27 +69,58 @@ const config: Config = {
       flicker: {
         "0%": {
           opacity: "1",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         },
         "50%": {
           opacity: "1",
-          transform: "rotate(180deg)"
+          transform: "rotate(180deg)",
         },
         "100%": {
           opacity: "0",
-          transform: "rotate(360deg)"
-        }
-    }
-
+          transform: "rotate(360deg)",
+        },
+      },
+      drop1: {
+        "0%": {
+          transform: "translateY(-200px) rotate(-90deg)",
+          opacity: "0",
+        },
+        "100%": {
+          transform: "translateY(0)",
+          opacity: "1",
+        },
+      },
+      drop2: {
+        "0%": {
+          transform: "translateY(-200px) rotate(90deg)",
+          opacity: "0",
+        },
+        "100%": {
+          transform: "translateY(0)",
+          opacity: "1",
+        },
+      },
+      rollInFromRight: {
+        "0%": {
+          transform: "translateX(800px) rotate(90deg)",
+        },
+        "100%": {
+          transform: "translateX(0)",
+        },
+      }
     },
     animation: {
-      arrowMove: "arrowMove 2000ms linear",
+      arrowMove: "arrowMove 2000ms linear infinite",
       rotateAndTranslateBox: "rotateAndTranslateBox 1000ms ease-in",
       spin: "spin 2000ms linear infinite",
       flicker1: "flicker 3000ms linear infinite",
       flicker2: "flicker 3100ms linear infinite",
       flicker3: "flicker 3200ms linear infinite",
       flicker4: "flicker 3300ms linear infinite",
+      drop1: "drop1 1000ms linear",
+      drop2: "drop2 1000ms linear",
+      rollInFromRight: "rollInFromRight 1500ms linear",
+
     },
   },
   plugins: [],

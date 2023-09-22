@@ -45,10 +45,11 @@ lg:w-[980px]
             alt=""
             width={2000}
             height={2000}
-            className="absolute -top-[25px] w-[160px] h-[180px] left-[170px]
+            className="absolute -top-[25px] w-[160px] h-[180px] left-[180px]
           lg:w-[420px] lg:h-[500px]
           lg:-top-[75px] lg:left-[510px]
           2xl:w-[500px] 2xl:h-[520px] 2xl:left-[670px] 2xl:-top-[90px]
+
 
       "
           />
@@ -57,12 +58,13 @@ lg:w-[980px]
             alt=""
             width={2000}
             height={2000}
-            className="absolute -top-[20px] w-[180px] h-[200px] left-[180px]
+            className="absolute -top-[20px] w-[180px] h-[200px] left-[190px]
           lg:w-[500px] lg:h-[580px]
 
           lg:-top-[35px] lg:left-[540px]
           2xl:w-[550px] 2xl:h-[620px]
           2xl:left-[720px] 2xl:-top-[50px]
+
 
 
       "
@@ -79,38 +81,38 @@ lg:w-[980px]
               The variety of classes they offer is fantastic, I never get bored
               with my workouts NOW.
             </p>
-            <p className="testimonialName text-themeBlue px-6 py-4">Maggie</p>
+            <p className="testimonialName text-themeBlue px-6 py-4">Kevin</p>
             <p className="testimonialText text-themeBlue border-t-[0.5px] border-opacity-40 px-6 pt-4 border-themeBlue">
-              The variety of classes they offer is fantastic, I never get bored
-              with my workouts NOW.
+              I love how clean and well-maintained this gym is. It&apos;s clear
+              they take pride in providing a top-notch environment for members.
             </p>
-            <p className="testimonialName text-themeBlue px-6 py-4">Maggie</p>
+            <p className="testimonialName text-themeBlue px-6 py-4">Bob</p>
             <p className="testimonialText text-themeBlue border-t-[0.5px] border-opacity-40 px-6 pt-4 border-themeBlue">
-              The variety of classes they offer is fantastic, I never get bored
-              with my workouts NOW.
+              The results I&apos;ve seen since joining are incredible. I feel
+              stronger, healthier, and more energized than ever.
             </p>
             <p className="testimonialName text-themeBlue px-6 py-4 border-b-[0.5px] border-themeBlue border-opacity-40">
               Maggie
             </p>
           </div>
 
-          <div className="hidden md:block mt-[31.5px] lg:mt-[38px]">
+          <div className="hidden md:block mt-[31.5px] lg:mt-[38px] 2xl:mt-[48px]">
             <p className="testimonialText text-themeBlue border-t-[0.5px] border-opacity-40 px-6 pt-4 border-themeBlue">
-              The variety of classes they offer is fantastic, I never get bored
-              with my workouts NOW.
+              The equipment is top-of-the-line, and I never have to wait for a
+              machine, even during peak hours.
             </p>
-            <p className="testimonialName text-themeBlue px-6 py-4">Maggie</p>
+            <p className="testimonialName text-themeBlue px-6 py-4">Ellen</p>
             <p className="testimonialText text-themeBlue border-t-[0.5px] border-opacity-40 px-6 pt-4 border-themeBlue">
-              The variety of classes they offer is fantastic, I never get bored
-              with my workouts NOW.
+              The trainers here are incredibly knowledgeable and always willing
+              to help. They&apos;ve really helped me reach my fitness goals.
             </p>
-            <p className="testimonialName text-themeBlue px-6 py-4">Maggie</p>
+            <p className="testimonialName text-themeBlue px-6 py-4">Willie</p>
             <p className="testimonialText text-themeBlue border-t-[0.5px] border-opacity-40 px-6 pt-4 border-themeBlue">
-              The variety of classes they offer is fantastic, I never get bored
-              with my workouts NOW.
+              This gym offers great value for the price. You get access to so
+              many amenities and services.
             </p>
             <p className="testimonialName text-themeBlue px-6 py-4 border-b-[0.5px] border-themeBlue border-opacity-40">
-              Maggie
+              John
             </p>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import Blue from "@/components/blue/Blue";
+import Footer from "@/components/footer/Footer";
 import Nav from "@/components/nav/Nav";
 import Orange from "@/components/orange/Orange";
 import Purple from "@/components/purple/Purple";
@@ -17,6 +18,7 @@ export default function Home() {
       <Blue />
       <Yellow />
       <Orange />
+      <Footer/>
     </>
   );
 }

@@ -1,32 +1,36 @@
+"use client";
 import Image from "next/image";
-
+import { useState } from "react";
+import { Waypoint } from "react-waypoint";
 const Red = () => {
+  const [isVisible, setIsVisible] = useState(false);
   return (
     <div className="w-full flex flex-col items-center mt-20 mb-10 md:mb-20">
-      <div className="relative">
-        <Image
-          src="/icon/red/dumbbell2.svg"
-          width={300}
-          height={300}
-          alt=""
-          className="w-[49px] h-auto
+      <Waypoint
+        onEnter={() => setIsVisible(true)}
+        onLeave={() => setIsVisible(false)}
+      >
+        <div className="relative">
+          <Image
+            src="/icon/red/dumbbell2.svg"
+            width={300}
+            height={300}
+            alt=""
+            className={`w-[49px] h-auto
           lg:w-[87px] lg:h-auto
-          2xl:w-[105px] 2xl:h-auto
-
-          "
-        />
-        <Image
-          src="/icon/red/dumbbell.svg"
-          width={300}
-          height={300}
-          alt=""
-          className="absolute w-[49px] h-auto top-0 right-1
+          2xl:w-[105px] 2xl:h-auto ${isVisible ? "animate-drop1" : ""}`}
+          />
+          <Image
+            src="/icon/red/dumbbell.svg"
+            width={300}
+            height={300}
+            alt=""
+            className={`absolute w-[49px] h-auto -top-0 right-2
           lg:w-[87px] lg:h-auto
-          2xl:w-[105px] 2xl:h-auto
-
-          "
-        />
-      </div>
+          2xl:w-[105px] 2xl:h-auto ${isVisible ? "animate-drop2" : ""}`}
+          />
+        </div>
+      </Waypoint>
       <div className="relative flex w-full justify-center items-center mt-8">
         <h1 className="absolute heroTitle text-themeRed text-center uppercase">
           Elevate <br /> & TRANSFORM
