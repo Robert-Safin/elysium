@@ -19,7 +19,7 @@ const Kettlebell:FC<Props> = (props) => {
       className="w-[21.56px] h-[24.3px]
       md:w-[30.8px] md:h-[34.7px]
       lg:w-[45px] lg:h-[52px]
-      mb-1
+      mb-1 my-2
 
       "
     >
